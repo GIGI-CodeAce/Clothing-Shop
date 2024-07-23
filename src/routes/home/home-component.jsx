@@ -1,6 +1,5 @@
 
-
-const categories = [
+const Home = [
     {
       id: 1,
       title: "hats",
@@ -28,4 +27,4 @@ const categories = [
     }
   ];
 
-  export default categories
+  export default Home

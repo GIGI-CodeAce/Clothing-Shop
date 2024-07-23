@@ -1,16 +1,12 @@
-import './Components/categories.styles.scss';
-import categories from "./Components/categories.items.js"
-import CategoryItem from "./Components/category-item-component.jsx";
+ import './Components/directory/directory/categories.styles.scss';
+ import Directory from './Components/directory/directory/directory.component.jsx';
+import Home from "./routes/home/home-component.jsx";
 
 function App() {
 
-
   return (
-    <div className='categories-container'>
-      {categories.map((category) => (
-        <CategoryItem key={category.id} category={category} />
-      ))}
-    </div>
+     <Directory categories={Home} />
+    // <Home/>
   );
 }
 
