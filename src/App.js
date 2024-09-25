@@ -1,13 +1,16 @@
- import './Components/directory/directory/categories.styles.scss';
- import Directory from './Components/directory/directory/directory.component.jsx';
-import Home from "./routes/home/home-component.jsx";
+import { Routes, Route } from 'react-router-dom';
 
-function App() {
+import Home from './routes/home/home-component.jsx';
 
+const App = () => {
   return (
-     <Directory categories={Home} />
-    // <Home/>
+    // <Routes>
+    //   <Route path='/' index element={<Home />} />
+    // </Routes>
+    <>
+        <Home />
+    </>
   );
-}
+};
 
 export default App;
