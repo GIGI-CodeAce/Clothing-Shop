@@ -1,5 +1,5 @@
-
- import './category-styles.scss';
+import { Link } from 'react-router-dom';
+import './category-styles.scss';
 
 const CategoryItem = ({ category }) => {
   const { imageUrl, title } = category;
@@ -12,8 +12,10 @@ const CategoryItem = ({ category }) => {
         }}
       />
       <div className='category-body-container'>
-        <h2>{title}</h2>
-        <p>Shop Now</p>
+        <Link className='buttonsUI' to={`/${title}`}>
+          <h2>{title}</h2>
+          <p>Shop Now</p>
+        </Link>
       </div>
     </div>
   );
