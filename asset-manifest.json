@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "//Clothing-Shop/static/css/main.fef24bfb.css",
+    "main.js": "//Clothing-Shop/static/js/main.4cc80840.js",
+    "index.html": "//Clothing-Shop/index.html",
+    "main.fef24bfb.css.map": "//Clothing-Shop/static/css/main.fef24bfb.css.map",
+    "main.4cc80840.js.map": "//Clothing-Shop/static/js/main.4cc80840.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fef24bfb.css",
+    "static/js/main.4cc80840.js"
+  ]
+}
